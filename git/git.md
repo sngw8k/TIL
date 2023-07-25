@@ -96,16 +96,14 @@ git config
 - `git config --global user.email 'your@email.com'`
 - `git config --global user.name 'yourname'`
 
-```shell
-git remote 
-```
-- remote 저장소 주소를 추가하는 명령어
-- `git remote add origin <remoteurl>`
-- `-v` (optional) : 연결되어있는 원격저장소 정보를 확인할 때
-
-
 ## 확장프로그램 (Extensions)
 ```
 open in browser 
 ```
 - 작업하고 있는 것을 브라우저에서 볼 수 있다.
+
+## 노트
+
+- `fork` : 다른 사람의 github 원격 저장소(remote repository)를 내 github 원격 저장소로 복사해오는 것.
+- `fork`한 코드를 수정할 때 나의 원격 저장소에서 `clone`을 사용하여 수정
+- 수정한 파일은 `Pull requests`에서 업로드
