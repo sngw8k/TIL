@@ -44,14 +44,42 @@ git commit -m 'message'
 - `staging area`에 올라간 파일들을 저장
 
 ```shell
-git remote add origin <remoteurl>
+git remote add origin <remote url>
 ```
-- 원격저장소 주소를 `origin`이라는 별명으로 저장
+- 원격 저장소 주소를 `origin`이라는 별명으로 저장
 
 ```shell
 git push origin master
 ```
-- `master` 브랜치를 `origin` 원격저장소로 업로드
+- `master` 브랜치를 `origin` 원격 저장소로 업로드
+
+```shell
+git pull origin master
+```
+- 원격 저장소에 마지막 코드 상태를 다운로드
+
+```shell
+git clone <remote url>
+```
+- 원격 저장소에 있는 레포를 현재 폴더에 복제
+- 현재 폴더에서 open git bash를 통해 명령어 입력
+
+```shell
+git branch <branch name>
+```
+- `branch name` 이름을 가진 브랜치를 생성
+- ` -d <branch name>` : `branch name` 브랜치를 삭제
+
+```shell
+git branch 
+```
+- 저장된 모든 branch 확인하는 명령어
+
+
+```shell
+git switch <branch name>
+```
+- 브랜치를 전환하는 명령어
 
 ## 설정
 
@@ -73,3 +101,11 @@ git remote
 ```
 - remote 저장소 주소를 추가하는 명령어
 - `git remote add origin <remoteurl>`
+- `-v` (optional) : 연결되어있는 원격저장소 정보를 확인할 때
+
+
+## 확장프로그램 (Extensions)
+```
+open in browser 
+```
+-작업하고 있는 것을 브라우저에서 볼 수 있다.
